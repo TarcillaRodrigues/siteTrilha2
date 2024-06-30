@@ -4,6 +4,9 @@
     margin: 0;
     font-family: 'Inter', sans-serif;
 }
+section{
+    padding: 2rem 9%;
+}
 
 header {
     background-color: rgb(57,57,69);
@@ -15,6 +18,11 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 1rem 6rem;
+}
+.nav-bar a:hover{
+color: var(--main-color);
+border-bottom: .1rem solid var(--main-color);
+padding-bottom: .5rem;
 }
 
 .logo {
@@ -100,4 +108,27 @@ header {
     .open{
         display: block;
     }
+}
+
+.home{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background:no-repeat url("imagens/corrida.jpg");
+    background-size: cover;
+    
+}
+
+.home .content{
+    max-width: 50rem;
+}
+
+.home .content h1{
+    font-size: 5rem;
+    color: white;
+}
+
+.home .content h3{
+    font-size: 1.5rem;
+    color: white;
 }
