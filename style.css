@@ -118,7 +118,7 @@ padding-bottom: .5rem;
     background-size: cover;
     
 }
-
+/*capa*/
 .home .content{
     max-width: 50rem;
 }
@@ -131,4 +131,98 @@ padding-bottom: .5rem;
 .home .content h3{
     font-size: 1.5rem;
     color: white;
+}
+/*Parte1 Home*/
+.conteudoprincipal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    gap: 100px;
+    background-color: rgb(41, 161, 192);
+}
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: justify;
+    
+}
+.conteudo-principal-titulo {
+    font-weight: 400;
+    font-size: 3rem;
+}
+
+.conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+    
+}
+.conteudo-secundario-subtitulo{
+    border-top: 0.4px solid rgb(41, 161, 192);
+    padding-top: 48px;
+    font-weight: 400;
+    font-size: 40px;
+    color: rgb(57,57,69);
+}
+.conteudo-secundario-titulo {
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(57,57,69);
+}
+.conteudo-secundario {
+    text-align: justify;
+}
+.conteudo-secundario-texto {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    gap: 30px;
+}
+.conteudo-secundario-botao {
+    background-color: rgb(41, 161, 192);
+    width: 300px;
+    height: 67px;
+    border: none;
+    box-shadow: 4px 5px 4px (0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-weight: 400;
+    font-size: 15px;
+    color: white;
+}
+footer{
+    width: 100%;
+}
+#footer-content {
+  background-color:rgb(57,57,69);
+  display: flex;
+  flex-direction: row; 
+  flex-wrap: nowrap;
+  justify-content: space-around; 
+  padding: 20px;
+}
+#footer-contacts{
+    margin-top: 1.5rem;
+    color: white;
+}
+
+#footer-social-media {
+    display: flex;
+    gap: 2rem;
+    margin-top: 1.5rem;
+}
+#footer-social-media .footer-link{
+    height: 2.5rem;
+    width: 2.5rem;
+    color: white;
+    border: 50%;
+    transition: all 0.4s;
+}
+#footer-social-media .footer-link:hover{
+    opacity: 0.8;
+    
 }
