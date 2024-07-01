@@ -109,13 +109,63 @@ padding-bottom: .5rem;
         display: block;
     }
 }
-
-.valores {
- 
+.container{
+    background: linear-gradient(45deg, rgb(43, 134, 226), lightgreen);
+    padding: 15px 9%;
+    padding-bottom: 130px;
+}
+.container .heading{
+    text-align: center;
+    padding-bottom: 15px;
+    color: black;
+    text-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+    font-size: 40px;
+}
+.container .box-container{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax270px, 1fr);
-    gap: 15px;
-    
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap: 50px;
+}
+.container .box-container .box{
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    background-color: #fff;
+    text-align: center;
+    padding: 30px 20px;
+    margin-top: 50px;
+}
+.container .box-container .box .titulo{
+    text-align: center;
+    padding: 15px 0;
+    color: black;
+    text-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+}
+.container .box-container .box p{
+    text-align: center;
+    font-size: 15px;
+    color: black;
+    line-height: 1.8;
+}
+.container .box-container .box .botao{
+    display: inline-block;
+    border: none;
+    background-color: rgb(41, 161, 192);
+    margin-top: 20px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 13px;
+    color: white;
+}
+ /*{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap:15px;
+  
+}*/
+
+.card .card-text {
+    box-shadow: 0 5px 10px;
+
 }
 
 /*.card{
