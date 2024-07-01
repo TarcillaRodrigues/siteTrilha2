@@ -140,7 +140,7 @@ padding-bottom: .5rem;
     align-content: center;
     justify-content: space-between;
     gap: 100px;
-    background-color: rgb(41, 161, 192);
+    background: linear-gradient(45deg, rgb(43, 134, 226), lightgreen);
 }
 .conteudo-principal-escrito {
     display: flex;
@@ -163,7 +163,7 @@ padding-bottom: .5rem;
     
 }
 .conteudo-secundario-subtitulo{
-    border-top: 0.4px solid rgb(41, 161, 192);
+    border-top: 0.4px solid lightgreen;
     padding-top: 48px;
     font-weight: 400;
     font-size: 40px;
