@@ -206,7 +206,7 @@ main{
     font-weight: 500;
     color: #fff;
 }
-@media  and (max-width: 1300px) {
+@media screen and (max-width: 1300px) {
     .imagem {
         display: none;
     }
