@@ -4,9 +4,7 @@
     margin: 0;
     font-family: 'Inter', sans-serif;
 }
-section{
-    padding: 2rem 9%;
-}
+
 
 header {
     background-color: rgb(57,57,69);
@@ -110,9 +108,9 @@ padding-bottom: .5rem;
     }
 }
 
+/*Carrosel*/
 
-
-
+/*Rodapé*/
 footer{
     width: 100%;
 }
