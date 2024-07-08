@@ -109,7 +109,7 @@ padding-bottom: .5rem;
 }
 
 /*Carrosel*/
-.provas{
+.parte1{
     min-height: 100vh;
     display: grid;
     place-items: center;
@@ -135,7 +135,7 @@ h1{
 .galeria-slide{
     display: flex;
     width: calc(250px * 18);
-    animation: scroll 20s linear infinite;
+    animation: scroll 10s linear infinite;
 }
 
 @keyframes scroll{
@@ -168,7 +168,8 @@ img:hover{
     display: flex;
     align-items: center;
     min-height: 100vh;
-    padding-top: 50px;
+    padding: 0 10rem 0 10rem;
+    background-color: rgb(43, 134, 226);
 }
 
 .video{
@@ -178,7 +179,26 @@ img:hover{
 .texto-video{
     padding: 20px 100px;
 }
+/*Localização*/
+h1{
+    padding-top: 90px;
+    font-weight: 400;
+    font-size: 40px;
+    color: rgb(57,57,69);
+}
+.localizacao-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 24px;
+    padding: 0 10rem 0 10rem;
+  
+}
+.texto-localizacao p{
+    text-align: justify;
 
+
+}
 
 /*Rodapé*/
 footer{
