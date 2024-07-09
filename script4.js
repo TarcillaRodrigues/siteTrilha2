@@ -6,6 +6,12 @@ function menuShow() {
         menuMobile.classList.add('open');
     }
 }
+//botao entrar
+const btn = document.querySelector('button');
+
+btn.addEventListener('click', function(){
+    alert("Faça seu cadastro na aba de contatos!");
+});
 
 /*parte do formulario*/
 const form = document.querySelector("#form");

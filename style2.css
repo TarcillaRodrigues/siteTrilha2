@@ -107,13 +107,14 @@ padding-bottom: .5rem;
         display: block;
     }
 }
-
+main{
+    background: linear-gradient(45deg, rgb(43, 134, 226), lightgreen);   
+}
 /*Carrosel*/
 .parte1{
     min-height: 100vh;
     display: grid;
     place-items: center;
-    background: linear-gradient(45deg, rgb(43, 134, 226), lightgreen);
 }
 h1{
     padding-top: 90px;
@@ -169,7 +170,6 @@ img:hover{
     align-items: center;
     min-height: 100vh;
     padding: 0 10rem 0 10rem;
-    background-color: rgb(43, 134, 226);
 }
 
 .video{

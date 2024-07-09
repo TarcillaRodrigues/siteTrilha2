@@ -115,6 +115,9 @@ padding-bottom: .5rem;
     padding: 15px 9%;
     padding-bottom: 130px;
 }
+h1{
+    padding-top: 90px;
+}
 .container .heading{
     text-align: center;
     padding-bottom: 15px;
@@ -158,6 +161,10 @@ padding-bottom: .5rem;
     font-size: 13px;
     color: white;
     cursor: pointer;
+}
+.botao a{
+    text-decoration: none;
+    color: white;
 }
 .botao span{
     position: relative;
