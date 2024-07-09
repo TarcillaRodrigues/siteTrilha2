@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style4.css">
     <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <script src="script4.js" defer></script>
 
     <title>Pace Delas</title>
 </head>
@@ -70,7 +71,6 @@
          <!--Menu do Site ends-->
     </header>
 
-    <script src="script.js"></script>
 
     <main>
         <div class="container">
@@ -80,7 +80,7 @@
             
             <div class="form">
                 <!--Formulario Inicio-->
-                <form action="#">
+                <form action="https://formsubmit.co/tarcilla.rodriguess@gmail.com" method="POST">
                     <div class="form-header">
                         <div class="titulo">
                             <h1>Fale com a gente!</h1>
@@ -108,9 +108,12 @@
                         
                     </div>
                     <div class="enviar-botao">
-                        <button><a href="#">Enviar</a></button>
+                        <button type="submit"><a href="#">Enviar</a></button>
                     </div>
-
+                    <!--o primeiro é pra qnd receber vir com esse titulo, segundo é pra evitar q os email enviados vão como spam e o terceiro é pra desabilitar captcha depois q envio o formulario-->
+                    <input type="hidden" name="_subject" value="Descodificadas!">
+                    <input type="text" name="_honey" style="display: none">
+                    <input type="hidden" name="_captcha" value="false">
                 </form>
 
                

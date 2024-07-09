@@ -147,6 +147,7 @@ padding-bottom: .5rem;
     color: black;
     line-height: 1.8;
 }
+/*animação do botão*/
 .container .box-container .box .botao{
     display: inline-block;
     border: none;
@@ -156,6 +157,26 @@ padding-bottom: .5rem;
     border-radius: 5px;
     font-size: 13px;
     color: white;
+    cursor: pointer;
+}
+.botao span{
+    position: relative;
+    transition: 0.5s;
+}
+.botao span::after{
+    content: "\00bb";
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+.botao:hover span{
+    padding-right: 25px;
+}
+.botao:hover span::after{
+    opacity: 1;
+    right: 0;
 }
 .container .box-container .box:hover{
     box-shadow: 0 10px 15px rgba(0, 0, 0, .3);

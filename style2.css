@@ -199,7 +199,12 @@ h1{
 
 
 }
-
+/*Interativo*/
+@media (max-width:768px){
+    .parte1, .parte-video{
+        padding: 20px;
+    }
+}
 /*Rodapé*/
 footer{
     width: 100%;
